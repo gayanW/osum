@@ -98,8 +98,7 @@
                 android:id="@+id/captcha_view"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/ic_fingerprint_black_24dp"
-                android:tint="@color/colorAppIconDefault"
+                android:src="@drawable/ic_fingerprint_white_24px"
                 android:contentDescription="@string/captcha_view_desc"/>
             <EditText
                 android:id="@+id/captcha"

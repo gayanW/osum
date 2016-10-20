@@ -53,7 +53,6 @@ public class LoginActivity extends AppCompatActivity {
         sLoginTask = new LoginTask(this, mWebView, new OnLoginListener() {
             @Override
             public void onLoadCaptcha(Bitmap bitmap) {
-                mCaptcha.setColorFilter(null);
                 mCaptcha.setImageBitmap(bitmap);
                 mCaptchaField.setText("");
                 mCaptchaField.setHint(R.string.enter_captcha);
