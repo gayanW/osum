@@ -124,13 +124,4 @@
         android:layout_margin="30dp"
         android:contentDescription="@string/login_button_desc" />
 
-    <ProgressBar
-        android:id="@+id/progress_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:indeterminateOnly="true"
-        android:indeterminate="false"
-        android:layout_alignParentBottom="true"
-        android:visibility="invisible" />
 </RelativeLayout>
